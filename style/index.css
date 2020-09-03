@@ -1,1 +1,189 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+    
+.juanruiz {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    margin-top:5%;
+    margin-left:5%;
+}
+
+.top-nav {
+    display:flex;
+    flex-direction:column;
+    background:black;
+    height:15vh;
+    justify-content:center;
+}
+
+nav a {
+    margin-top:10%;
+    background:white;
+    padding:0.5%;
+    text-decoration:none;
+    color:black;
+    
+}
+nav a:hover {
+    background:black;
+    color:white;
+    
+}
+
+h1 {
+    color:white;
+    font-size:2.3rem;
+    margin-bottom:1%;
+    margin-left:2%;
+}
+
+nav {
+    margin-left:3%;
+}
+
+header {
+    display:flex;
+    /* border:2px solid red; */
+}
+
+.title {
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    justify-content:center;
+    margin-left:10%;
+}
+
+h2 {
+    font-size:3rem;
+    /* border:2px solid red; */
+}
+
+button.header-button {
+    padding:2%;
+    font-size:1.2rem;
+    color:white;
+    background:black;
+    border:none;
+    margin-top:2%;
+    width:20%;
+    /* border:2px solid red; */
+}
+
+button.header-button:hover {
+    color:black;
+    background:white;
+    border:2px solid black;
+}
+
+
+h3 {
+    font-size:1.3rem;
+    margin-top:2%;
+    /* border:2px solid red; */
+}
+
+/* .projects1 {
+    display:flex;
+    align-items: center;
+    margin-bottom:5%;
+    margin-top:10%;
+    justify-content:space-evenly;
+}
+
+.projects2 {
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-bottom:10%;
+}
+
+.project1 {
+    justify-content:column;
+} */
+
+.projects1 {
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:10%;
+}
+
+.projects2 {
+    display:flex;
+    margin-top:10%;
+    justify-content:space-evenly;
+}
+
+
+
+.projects1para {
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:1%;
+}
+.projects2para {
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:1%;
+    margin-bottom:10%;
+}
+
+footer {
+    flex-direction:column;
+    align-items: center;
+    display:flex;
+    color:white;
+    background:black;
+    height:30vh;
+}
+
+.like-what-you-see {
+    margin-top:2%;
+    font-size:2.5rem;
+    height:5vh;
+}
+
+.footer-button {
+    padding:1%;
+    margin-top:2%;
+    font-size:1rem;
+    color:black;
+    background:white;
+    border:none;
+    width:8%;
+}
+
+.footer-button:hover {
+  color:white;
+  background:black;
+  border:2px solid white;
+}
+
+
+
+
+
